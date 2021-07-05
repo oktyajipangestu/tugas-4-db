@@ -1,0 +1,19 @@
+1. Membuat Database:
+CREATE DATABASE permainan;
+
+2. Membuat table sepakbola
+CREATE TABLE sepakbola(
+    -> id_pemain INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    -> nama_pemain VARCHAR(100) NOT NULL,
+    -> usia_pemain INT(2) NOT NULL,
+    -> posisi_pemain VARCHAR(50) NOT NULL
+    -> );
+
+3. Buatlah struktur table sepakbola sebagai berikut:
+-tertera pada permainan.sql
+
+3. Ubah nama tabel menjadi sepakbola_indonesia
+ALTER TABLE sepakbola RENAME sepakbola_indonesia;
+
+5. Hapus table sepakbola_indonesia dan database permainan
+DROP sepakbola_indonesia;
